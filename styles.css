@@ -5,6 +5,10 @@ body {
     font-family: 'Kanit', sans-serif;
     background: #fff;
     color: #111;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -29,6 +33,7 @@ main {
 }
 
 .top-bar {
+    flex: 1;
     display: flex;
     gap: 15px;
     margin-bottom: 40px;
@@ -130,3 +135,4 @@ button:hover {
     margin-top: 20px;
 
 }
+
