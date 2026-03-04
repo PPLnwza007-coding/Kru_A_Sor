@@ -117,6 +117,19 @@ button:hover {
   margin: auto;
 }
 
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #eee;
+  margin-top: 60px;
+  font-size: 14px;
+  color: #666;
+}
+
+footer p {
+  margin: 5px 0;
+}
 .back-btn {
   margin-top: 20px;
 }
+
