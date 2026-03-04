@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background: #fff;
+    color: #111;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px 80px;
+}
+
+.top-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+/* คำศัพท์ */
+.category {
+    margin-bottom: 60px;
+}
+
+.category h3 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.word-item {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.word {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reading {
+    font-size: 15px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.meaning {
+    font-size: 16px;
+}
+
+/* เกม */
+.game-menu {
+    text-align: center;
+}
+
+.mode-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.question-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-box h2 {
+    font-size: 28px;
+}
+
+.choices {
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.back-btn {
+    margin-top: 20px;
+}
