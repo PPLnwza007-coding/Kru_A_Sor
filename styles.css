@@ -7,6 +7,15 @@ body {
     color: #111;
 }
 
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
+}
+
 header {
     text-align: center;
     padding: 40px 20px;
@@ -119,4 +128,5 @@ button:hover {
 
 .back-btn {
     margin-top: 20px;
+
 }
