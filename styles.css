@@ -5,17 +5,19 @@ body {
     font-family: 'Kanit', sans-serif;
     background: #fff;
     color: #111;
+
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
-    text-align: center;
-    padding: 40px 0 20px;
-    margin-top: 60px;
-    background-color: #222;
-    color: white;
-    font-size: 14px;
+  margin-top: auto;
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
 }
 
 header {
@@ -133,6 +135,7 @@ button:hover {
     margin-top: 20px;
 
 }
+
 
 
 
