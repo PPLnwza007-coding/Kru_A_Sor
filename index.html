@@ -1,67 +1,16 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <title>English Vocabulary</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Anigatooo</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <h1>English อาซ้อ</h1>
-  <p>ทบทวนคำศัพท์อาซ้อ มีเกมด้วย</p>
-</header>
+<div class="center-text">
+    มาดูไร สอบเสร็จแล้ว
+</div>
 
-<main>
-
-  <div class="top-bar">
-    <input type="text" id="search" placeholder="ค้นหาคำศัพท์...">
-    <button id="gameBtn">เล่นเกม</button>
-  </div>
-
-  <!-- หน้าแสดงคำศัพท์ -->
-  <section id="vocabPage">
-    <div id="vocab-container"></div>
-  </section>
-
-  <!-- หน้าเกม -->
-  <section id="gamePage" class="hidden">
-
-    <div class="game-menu">
-      <h2>เลือกโหมดเกม</h2>
-      <div class="mode-buttons">
-        <button onclick="startGame('แถว 1')">แถว 1</button>
-        <button onclick="startGame('แถว 2')">แถว 2</button>
-        <button onclick="startGame('แถว 3')">แถว 3</button>
-        <button onclick="startGame('แถว 4')">แถว 4</button>
-        <button onclick="startGame('all')">รวมทั้งหมด</button>
-      </div>
-      <button class="back-btn" onclick="goHome()">กลับหน้าหลัก</button>
-    </div>
-
-    <div id="quizArea" class="hidden">
-      <div class="question-box">
-        <h2 id="questionWord"></h2>
-        <p id="questionReading"></p>
-      </div>
-      <div id="choices" class="choices"></div>
-      <p id="score"></p>
-      <button class="back-btn" onclick="goHome()">ออกเกม</button>
-    </div>
-
-  </section>
-
-</main>
-
-<!-- 🔥 Footer เครดิต -->
-<footer>
-  <div class="footer-container">
-    <p>Made by ไอ้พี</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
-
-
